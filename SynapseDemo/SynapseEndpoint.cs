@@ -9,7 +9,7 @@ using ZeroMQ;
 
 namespace SynapseDemo
 {
-    public enum Mode { NONE, PROXY, API, HANDLER, PROXIES, CLIENT, WORKER };
+    public enum Mode { NONE, PROXY, CONTROLLER, NODE, PROXIES, CLIENT, WORKER };
     public enum MessageType { NONE, REQUEST, REPLY, STATUS, ACK };
 
     public class SynapseEndpoint

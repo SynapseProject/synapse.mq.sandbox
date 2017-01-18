@@ -32,7 +32,7 @@ namespace SynapseDemo
 
                     StartProxy(endpoint, endpoint2);
                 }
-                else if (mode == Mode.API)
+                else if (mode == Mode.CONTROLLER)
                 {
                     String sendOn = @"tcp://localhost:5555";
                     String listenOn = @"tcp://localhost:5558";
@@ -43,7 +43,7 @@ namespace SynapseDemo
 
                     StartApi(sendOn, listenOn);
                 }
-                else if (mode == Mode.HANDLER)
+                else if (mode == Mode.NODE)
                 {
                     String sendOn = @"tcp://localhost:5557";
                     String listenOn = @"tcp://localhost:5556";
