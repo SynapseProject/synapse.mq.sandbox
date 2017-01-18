@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SynapseDemo", "SynapseDemo\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleRequestReply", "SimpleRequestReply\SimpleRequestReply.csproj", "{0684B227-44A1-4C6C-9924-B15DF5AD5E0A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimplePubSub", "SimplePubSub\SimplePubSub.csproj", "{D3DE2D9E-EE94-47A4-AC1C-AA19212FF5B4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{0684B227-44A1-4C6C-9924-B15DF5AD5E0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0684B227-44A1-4C6C-9924-B15DF5AD5E0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0684B227-44A1-4C6C-9924-B15DF5AD5E0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3DE2D9E-EE94-47A4-AC1C-AA19212FF5B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3DE2D9E-EE94-47A4-AC1C-AA19212FF5B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3DE2D9E-EE94-47A4-AC1C-AA19212FF5B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3DE2D9E-EE94-47A4-AC1C-AA19212FF5B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
