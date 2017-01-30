@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleRequestReply", "Simpl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimplePubSub", "SimplePubSub\SimplePubSub.csproj", "{D3DE2D9E-EE94-47A4-AC1C-AA19212FF5B4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encryption", "Encryption\Encryption.csproj", "{BB47B25A-CE2D-458C-AC73-7F0C5C3132DC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{D3DE2D9E-EE94-47A4-AC1C-AA19212FF5B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3DE2D9E-EE94-47A4-AC1C-AA19212FF5B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D3DE2D9E-EE94-47A4-AC1C-AA19212FF5B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB47B25A-CE2D-458C-AC73-7F0C5C3132DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB47B25A-CE2D-458C-AC73-7F0C5C3132DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB47B25A-CE2D-458C-AC73-7F0C5C3132DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB47B25A-CE2D-458C-AC73-7F0C5C3132DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
